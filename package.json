@@ -22,5 +22,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igrok95Ronin/lood-10-nl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Igrok95Ronin/lood-10-nl/issues"
+  },
+  "homepage": "https://github.com/Igrok95Ronin/lood-10-nl#readme",
   "description": ""
 }

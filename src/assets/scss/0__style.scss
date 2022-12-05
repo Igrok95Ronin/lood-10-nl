@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1164px;
+    margin: 0 auto;
+}
+.containerFull {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    outline: 1px solid red;
+    margin: auto;
+    padding: 0;
+    font: 15px Helvetica,Arial,sans-serif;
+    max-width: 1920px;
+    min-width: 320px;
+    color: #212121;
+}
+
+//var
+$bgColor1 : #22F9E3;
+$txtColor1 : #22F9E3;
+$bgColor2 : #0E2B5C;
+$txtColor2 : #0E2B5C;
+
+

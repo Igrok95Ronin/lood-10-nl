@@ -1,0 +1,78 @@
+.header {
+    // position: fixed;
+    width: 100%;
+}
+.header__box {
+    display: grid;
+    grid-template-columns: .6fr 1fr;
+}
+.header__left {
+    background-color: $bgColor1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px 0;
+}
+.header__btn,
+.header__list {
+    color: $txtColor2;
+    padding: 0 12px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+.header__btn {
+    padding-right: 160px;
+    span {
+        position: relative;
+        transition: .3s;
+        &::before {
+            content: '';
+            position: absolute;
+            background: url(../icons/phone.svg);
+            width: 16px;
+            height: 16px;
+            left: -20px;
+            top: 45%;
+            transform: translateY(-50%);
+        }
+    }
+}
+.header__right {
+    background-color: $bgColor2;
+    display: flex;
+    align-items: center;
+}
+.header__list {
+    color: #fff;
+    display: flex;
+    padding-left: 100px;
+    gap: 150px;
+}
+.header__li {
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        background: url(../icons/clock2.svg);
+        width: 16px;
+        height: 16px;
+        left: -25px;
+        top: 45%;
+        transform: translateY(-50%);
+    }
+}
+.header__li:nth-child(2) {
+    &::before {
+        content: '';
+        background: url(../icons/dollar.svg);
+
+    }
+}
+.header__li:nth-child(3) {
+    &::before {
+        content: '';
+        background: url(../icons/automobile.svg);
+
+    }
+}
