@@ -1,0 +1,70 @@
+.sewerCleaning {
+    padding: 40px 0 80px;
+}
+.sewerCleaning__titl {
+    font-size: 31px;
+    font-weight: 800;
+    color: $txtColor2;
+    margin: 0 0 80px;
+}
+.sewerCleaning__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+.sewerCleaning__right {
+}
+.sewerCleaning__img {
+    max-width: 100%;
+}
+.sewerCleaning__left {
+}
+.sewerCleaning__dscr {
+    font-size: 18px;
+    color: $txtColor1;
+    font-weight: 700;
+}
+.sewerCleaning__title {
+    font-size: 44px;
+    font-weight: 800;
+    color: $txtColor2;
+    margin: 20px 0;
+}
+.sewerCleaning__txt {
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+.sewerCleaning__ul {
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px
+}
+.sewerCleaning__li {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    &::before {
+        content: '✔';
+        position: absolute;
+        left: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: $bgColor1;
+        color: #fff;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        text-align: center;
+        transition: .3s;
+    }
+    &:hover::before {
+        background-color: $bgColor2;
+    }
+}
+.sewerCleaning__btnWrapper {
+}
+.sewerCleaning__btn {
+    @include btn;
+}
+//
