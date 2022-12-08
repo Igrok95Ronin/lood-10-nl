@@ -20,15 +20,10 @@
 .sewerCleaning__left {
 }
 .sewerCleaning__dscr {
-    font-size: 18px;
-    color: $txtColor1;
-    font-weight: 700;
+    @include smallDescr;
 }
 .sewerCleaning__title {
-    font-size: 44px;
-    font-weight: 800;
-    color: $txtColor2;
-    margin: 20px 0;
+    @include title;
 }
 .sewerCleaning__txt {
     margin-bottom: 20px;
@@ -67,4 +62,3 @@
 .sewerCleaning__btn {
     @include btn;
 }
-//

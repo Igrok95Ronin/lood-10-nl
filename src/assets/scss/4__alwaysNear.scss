@@ -1,0 +1,36 @@
+.alwaysNear {
+    background-color: $bgColor2;
+    color: #fff;
+    padding: 60px 0;
+}
+.alwaysNear__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+.alwaysNear__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.alwaysNear__dscr {
+    @include smallDescr;
+}
+.alwaysNear__title {
+    @include title;
+    color: #fff;
+}
+.alwaysNear__txt {
+    line-height: 24px;
+    margin-bottom: 34px;
+}
+.alwaysNear__btnWrapper {
+}
+.alwaysNear__btn {
+    @include btn;
+}
+.alwaysNear__wrapperImg {
+}
+.alwaysNear__img {
+    max-width: 100%;
+}
