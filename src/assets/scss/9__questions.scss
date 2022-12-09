@@ -1,0 +1,60 @@
+.questions {
+}
+.questions__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.questions__left {
+    background-image: url(../img/5male-plumber-teaching-female-apprentice-to-fix-leaking-sink-in-home-bathroom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 56% 0px;
+}
+.questions__right {
+    background-color: $bgColor2;
+    color: #fff;
+    padding: 15%;
+}
+.accordion-flush .accordion-item .accordion-button {
+    background-color: $bgColor2;
+    color: #fff;
+}
+.accordion-body {
+    background-color: $bgColor2;
+}
+.questions__dscr {
+    @include smallDescr;
+}
+.questions__title {
+    @include title;
+    color: #fff;
+    font-size: 30px;
+}
+.questions__txt {
+    line-height: 24px;
+}
+.accordion {
+    margin: 25px 0;
+}
+.accordion-flush {
+}
+.accordion-item {
+}
+.accordion-header {
+}
+.accordion-button {
+}
+.collapsed {
+}
+.accordion-collapse {
+}
+.collapse {
+}
+.accordion-body {
+    line-height: 24px;
+}
+.questions__btnLink {
+}
+.questions__btn {
+    @include btn;
+}
