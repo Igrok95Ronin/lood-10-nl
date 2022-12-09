@@ -1,0 +1,54 @@
+.idealSolution {
+}
+.idealSolution__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.idealSolution__left {
+    padding:12px 0 50px 12px;
+    background: url(../img/2.1male-plumber-in-uniform-holds-plunger-clog.jpg);
+    background-position: 25% 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.idealSolution__inner {
+    background-color: #fff;
+    padding: 25px 50px 25px 25px;
+    max-width: 480px;
+
+}
+.idealSolution__txt {
+    line-height: 24px;
+    margin: 0 0 30px;
+    padding: 0 0 0 20px;
+    border-width: 0 0 0 2px;
+    border-style: solid;
+    border-color: $txtColor1;
+}
+.idealSolution__nema {
+    color: $txtColor2;
+}
+.idealSolution__right {
+    background-color: $bgColor2;
+    color: #fff;
+    padding: 15% 15% 15% 15%;
+}
+.idealSolution__dscr {
+    @include smallDescr;
+}
+.idealSolution__title {
+    @include title;
+    color: #fff;
+}
+.idealSolution__text{
+    line-height: 24px;
+    margin: 30px 0;
+}
+.idealSolution__btnWrapper {
+}
+.idealSolution__btn {
+    @include btn;
+}
