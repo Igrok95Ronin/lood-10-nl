@@ -1,0 +1,56 @@
+.sewerProblem {
+    padding: 50px 0 80px;
+    background-color: #f6f6f6;
+}
+.sewerProblem__box {
+}
+.sewerProblem__top {
+}
+.sewerProblem__dscr {
+    @include smallDescr;
+}
+.sewerProblem__title {
+    @include title;
+    margin-bottom: 50px;
+}
+.sewerProblem__bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.sewerProblem__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.sewerProblem__img {
+    max-width: 100%;
+}
+.sewerProblem__num {
+    background-color: #22F9E3;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+.sewerProblem__name {
+    @include title;
+    font-size: 20px;
+    line-height: 24px;
+}
+.sewerProblem__txt {
+    line-height: 24px;
+    text-align: center;
+}
+.sewerProblem__btnWrapper {
+    text-align: center;
+    padding-top: 50px;
+}
+.sewerProblem__btn {
+    @include btn;
+}
