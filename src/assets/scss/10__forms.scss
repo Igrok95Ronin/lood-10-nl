@@ -1,0 +1,14 @@
+.forms {
+    background-color: #00173e;
+    padding: 80px 10px 50px 10px;
+}
+.forms__title {
+    color: #fff !important;
+}
+.forms__btn{
+    background-color: #0d45a4;
+    border: transparent;
+    &:hover {
+        background-color: #01235d;
+    }
+}
