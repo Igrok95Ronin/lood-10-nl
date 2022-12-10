@@ -28,7 +28,7 @@
     color: $bgColor1;
 }
 .headerMain__title {
-    font-size: 55px;
+    font-size: clamp(30px,7vw,55px);
     font-weight: 800;
     line-height: 1.1em;
     margin: 15px 0;
@@ -51,14 +51,15 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    gap: 20px;
     justify-content: space-around;
-    transform: translate(140%, 185%);
+    transform: translate(clamp(60%,37vw,140%), 185%);
 }
 .headerMain__inner {
     text-align: center;
 }
 .headerMain__num {
-    font-size: 36px;
+    font-size: clamp(20px,5vw,36px);
     font-weight: 800;
     line-height: 1.1em;
 }

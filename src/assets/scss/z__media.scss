@@ -1,0 +1,120 @@
+@media(max-width: 1439px) {
+    .header__list {
+        padding-left: 50px;
+        gap: 50px;
+    }
+    .header__li {
+        font-size: 16px;
+    }
+    .header__btn {
+        padding-right: 0px;
+    }
+    .header__left {
+        justify-content: center;
+    }
+    .questions__left {
+        background-position: 10% 0;
+    }
+}
+@media(max-width: 1023px) {
+    .header__li {
+        font-size: 14px;
+    } 
+    .sewerCleaning__box {
+        grid-template-columns: 1fr;
+    }
+    .idealSolution__inner {
+        padding: 25px;
+    }
+    .sewerProblem__bottom {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+}
+@media(max-width: 768px) {
+    .headerMain__box {
+        padding: 100px 0 100px 0;
+    }
+    .headerMain__wrapper {
+        transform: translate(clamp(60%,37vw,140%),140%);
+    }
+    .solution__bottom {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(max-width: 767px) {
+    .header__right {
+        display: none;
+    }
+    .header__box {
+        grid-template-columns: 1fr;
+    }
+    .headerMain__wrapper {
+        max-width: 100%;
+        transform: translate(0,140%);
+    }
+    .sewerCleaning {
+        padding: 100px 0 80px;
+    }
+    .sewerCleaning__titl {
+        margin: 0 0 50px;
+    }
+    .alwaysNear__box {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .solution__top,
+    .idealSolution__box,
+    .questions__box {
+        grid-template-columns: 1fr;
+    }
+    .solution__right {
+        justify-content: start;
+    }
+    .idealSolution__right,
+    .questions__right{
+        padding: 30px 12px;
+    }
+    .idealSolution__inner {
+        max-width: 100%;
+    }
+    .idealSolution__left {
+        padding: 30px 12px;
+        min-height: 500px;
+    }
+    .slider {
+        padding: 50px 0 100px;
+    }
+    .questions__left{
+        height: 56vh;
+    }
+    .forms {
+        padding: 50px 10px 30px 10px;
+    }
+
+}
+@media(max-width: 425px) {
+    .headerMain__dscr {
+        font-size: 16px;
+    }
+    .headerMain__box {
+        padding: 50px 0 50px 0;
+    }
+    .headerMain__wrapper {
+        transform: translate(0,95%);
+    }
+    .solution__bottom {
+        grid-template-columns: 1fr;
+    }
+}
+@media(max-width: 424px) {
+    .sewerCleaning__ul {
+        grid-template-columns: 1fr;
+    }
+}
+@media(max-width: 374px) {
+    .sewerCleaning {
+        padding: 120px 0 80px;
+    }
+}

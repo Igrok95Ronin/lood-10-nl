@@ -13,9 +13,12 @@
     gap: 50px;
 }
 .sewerCleaning__right {
+    display: flex;
+    align-items: center;
 }
 .sewerCleaning__img {
     max-width: 100%;
+
 }
 .sewerCleaning__left {
 }

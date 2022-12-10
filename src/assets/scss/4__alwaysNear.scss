@@ -30,6 +30,8 @@
     @include btn;
 }
 .alwaysNear__wrapperImg {
+    display: flex;
+    align-items: center;
 }
 .alwaysNear__img {
     max-width: 100%;

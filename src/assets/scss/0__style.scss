@@ -57,7 +57,7 @@ $btn : #0E2B5C;
     font-weight: 700;
 }
 @mixin title {
-    font-size: 44px;
+    font-size: clamp(24px,5vw,44px);
     font-weight: 800;
     color: $txtColor2;
     margin: 20px 0;

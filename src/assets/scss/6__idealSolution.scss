@@ -42,6 +42,7 @@
 .idealSolution__title {
     @include title;
     color: #fff;
+    font-size: clamp(24px,3vw,44px);
 }
 .idealSolution__text{
     line-height: 24px;

@@ -28,7 +28,7 @@
 .questions__title {
     @include title;
     color: #fff;
-    font-size: 30px;
+    font-size: clamp(23px,3vw,30px);
 }
 .questions__txt {
     line-height: 24px;
